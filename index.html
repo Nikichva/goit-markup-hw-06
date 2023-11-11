@@ -372,6 +372,21 @@
                     </li>
                 </ul>
             </div>
+
+            <div class="footer-box">
+                <p class="footer-text-social">Subscribe</p>
+                <form autocomplete="off" method="POST" name="subscribe-form" action="javascript:void(0);"
+                    class="footer-form">
+                    <input type="email" name="email" id="user_email" placeholder="E-mail" autocomplete="off"
+                        class="footer-input">
+                    <button class="footer-button" type="submit">Subscribe
+                        <svg class="svg-footer-icons" width="24" height="24">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+
         </div>
     </footer>
 
@@ -382,6 +397,68 @@
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
+            <p class="modal-text">Leave your contacts and we will call you back</p>
+            <form autocomplete="off" method="POST" name="order-form" action="javascript:void(0);">
+
+                <div class="form-box">
+                    <label class="form-label" for="username">
+                        Name
+                    </label>
+                    <div class="input-div">
+                        <input id="username" type="text" name="username" class="form-input" required>
+                        <svg class="form-svg" width="18" height="24">
+                            <use href="./images/icons.svg#icon-person-black"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="form-box">
+                    <label class="form-label" for="phone">
+                        Phone
+                    </label>
+                    <div class="input-div">
+                        <input id="phone" type="tel" name="phone" class="form-input" required>
+                        <svg class="form-svg" width="18" height="24">
+                            <use href="./images/icons.svg#icon-phone-black"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="form-box">
+                    <label class="form-label" for="email">
+                        Email
+                    </label>
+                    <div class="input-div">
+                        <input id="email" type="email" name="email" class="form-input" required>
+                        <svg class="form-svg" width="18" height="24">
+                            <use href="./images/icons.svg#icon-email-black"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="form-box-last">
+                    <label class="form-label" for="feedback">
+                        Comment
+                    </label>
+                    <textarea id="feedback" name="feedback" placeholder="Text input" class="form-textarea"></textarea>
+                </div>
+
+                <div class="cheack-box">
+                    <input class="visually-hidden check" type="checkbox" name="privacy-policy" id="privacy-policy"
+                        value="privacy-policy" required />
+                    <label class="accept-privacy" for="privacy-policy">
+                        <span class="privacy-span">
+                            <svg width="10" height="8" class="checked">
+                                <use href="./images/icons.svg#icon-vector"></use>
+                            </svg>
+                        </span>
+                        I accept the terms and conditions of the <a href="#" class="form-link">Privacy Policy</a>
+                    </label>
+                </div>
+
+                <button type="submit" class="blue-button"><span class="form-button">Send</span></button>
+
+            </form>
         </div>
     </div>
 

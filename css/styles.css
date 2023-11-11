@@ -898,11 +898,13 @@ body {
 /* -----------------------------------FOOTER_FORM--------------------- */
 
 .footer-input {
+  display: block;
   width: 264px;
   height: 40px;
   padding: 8px 16px;
   background-color: transparent;
   border-radius: 4px;
+  gap: 24px;
   border: 1px solid var(--WHITE);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--WHITE);
@@ -926,7 +928,6 @@ body {
 }
 
 .footer-button {
-  margin: 0 auto;
   display: flex;
   min-width: 165px;
   height: 40px;
@@ -959,9 +960,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 16px;
-  list-style: none;
-  padding-left: 0;
+  gap: 24px;
 }
 
 .svg-footer-icons {

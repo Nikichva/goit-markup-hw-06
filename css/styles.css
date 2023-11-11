@@ -895,6 +895,7 @@ body {
   width: 264px;
   height: 40px;
   padding: 8px 16px;
+  gap: 24px;
   background-color: var(--NAVY-BLUE);
   border-radius: 4px;
   border: 1px solid var(--WHITE);
@@ -909,7 +910,6 @@ body {
 }
 
 .footer-input::placeholder {
-  color: red;
   opacity: 1; /* Firefox */
   color: var(--WHITE);
   font-family: Roboto;
@@ -923,6 +923,7 @@ body {
 .footer-button {
   margin: 0 auto;
   display: flex;
+  min-width: 165px;
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
@@ -931,7 +932,7 @@ body {
   border: none;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--WHITE);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
